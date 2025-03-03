@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booktopy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Añadir estos estilos inline para asegurar que se apliquen */
+        body {
+            background-color: #737473 !important;
+        }
+        .container {
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><div class="welcome-container">
+                    <h1 class="btn">📚 Tienda de Libros</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Bienvenidos a Booktopy</h1>
+        </div>        <div class="alert alert-primary" role="alert">
+            <strong>¡Oferta!</strong> Compra libros hasta con un 10% de descuento.
+        </div>
+        
+        <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://m.media-amazon.com/images/I/419CqGgAdZL._SY445_SX342_.jpg" alt="Book 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://m.media-amazon.com/images/I/91nujEwIpYL._SY385_.jpg" alt="Book 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://m.media-amazon.com/images/I/81wZXiu4OiL._SY425_.jpg" alt="Book 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="books-grid">
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/419CqGgAdZL._SY445_SX342_.jpg" alt="Book 1">
+                <h3>Atomic Habits</h3>
+                <a href="https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299"  target="_blank">
+                    <button class="button">
+                      <span class="button-content">Comprar!</span>
+                    </button>
+                    </a>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/91nujEwIpYL._SY385_.jpg" alt="Book 2">
+                <h3>Deep Work</h3>
+                <a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692" target="_blank">                    <button class="button">
+                    <span class="button-content">Comprar!</span>
+                  </button>
+                  </a>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/51kZmzkknYL._SY445_SX342_.jpg" alt="Book 3">
+                <h3>Think and Grow Rich</h3>
+                <a href="https://www.amazon.com/Think-Grow-Rich-Napoleon-Hill/dp/0785833528" target="_blank">                    <button class="button">
+                    <span class="button-content">Comprar!</span>
+                  </button>
+                  </a>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/81wZXiu4OiL._SY425_.jpg" alt="Book 4">
+                <h3>The Psychology of Money</h3>
+                <a href="https://www.amazon.com/Psychology-Money-Timeless-Lessons-Happiness/dp/0857197681" target="_blank">                    <button class="button">
+                    <span class="button-content">Comprar!</span>
+                  </button>
+                  </a>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/81bsw6fnUiL._SY385_.jpg" alt="Book 5">
+                <h3>Rich Dad Poor Dad</h3>
+                <a href="https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194" target="_blank">                    <button class="button">
+                    <span class="button-content">Comprar!</span>
+                  </button>
+                  </a>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/611X8GI7hpL._SY385_.jpg" alt="Book 6">
+                <h3>48 Laws of Power</h3>
+                <a href="https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197" target="_blank">                    <button class="button">
+                    <span class="button-content">Comprar!</span>
+                  </button>
+                  </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Booktopy. Todos los derechos reservados.</p>
+        </div>
+        <!-- From Uiverse.io by satyamchaudharydev --> 
+   <button id="scrollToTopBtn">
+        <div class="text">
+      <span>Al</span>
+      <span>inicio</span>
+    </div>
+    <div class="clone">
+      <span>Al</span>
+      <span>inicio</span>
+    </div>
+    <svg
+      stroke-width="2"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      fill="none"
+      class="h-6 w-6"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20px"
+    >
+      <path
+        d="M14 5l7 7m0 0l-7 7m7-7H3"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+      ></path>
+    </svg>
+  </button>
+  
+    </footer>
+    <script>
+        document.getElementById("scrollToTopBtn").addEventListener("click", function() {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Desplazamiento suave
+          });
+        });
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
